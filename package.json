@@ -14,8 +14,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "rsc-use-client.helloWorld",
-        "title": "Hello World"
+        "command": "rsc-use-client.toggleSyntax",
+        "title": "Toggle RSC Syntax"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "rsc-use-client.toggleSyntax",
+        "key": "ctrl+c",
+        "mac": "ctrl+c",
+        "when": "editorFocus"
       }
     ]
   },
