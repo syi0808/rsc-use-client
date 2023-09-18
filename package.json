@@ -1,5 +1,6 @@
 {
   "name": "rsc-use-client",
+  "publisher": "syi0808",
   "displayName": "rsc-use-client",
   "description": "Automatic 'use client' syntax generation and toggle",
   "version": "0.0.1",
