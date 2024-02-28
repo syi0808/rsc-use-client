@@ -24,7 +24,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 function toggleSyntaxInEditorCode(text: string) {
   if (/\'use client\';?/.test(text)) {
-    return text.replace(/\'use client\';?/, `'use server';`);
+    return text.replace(/\'use client\';?/, '');
   } else if (/\'use server\';?/.test(text)) {
     return text.replace(/\'use server\';?/, `'use client';`);
   } else {
