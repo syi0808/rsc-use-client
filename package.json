@@ -3,7 +3,7 @@
   "publisher": "syi0808",
   "displayName": "rsc-use-client",
   "description": "Automatic 'use client' syntax generation and toggle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -26,8 +26,8 @@
     "keybindings": [
       {
         "command": "rsc-use-client.toggleSyntax",
-        "key": "ctrl+c",
-        "mac": "ctrl+c",
+        "key": "ctrl+alt+c",
+        "mac": "ctrl+alt+c",
         "when": "editorFocus"
       }
     ]
